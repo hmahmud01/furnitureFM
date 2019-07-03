@@ -1,0 +1,42 @@
+@import url(../css/bootstrap.min.css);
+
+#intro {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, rgba(227, 202, 170, 0.2), rgba(245, 244, 174, 0.4)), url("../img/home/home.jpg") center top no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#intro .intro-text {
+    position: absolute;
+    left: 0;
+    margin-top: 5%; 
+    top: 60px;
+    right: 0;
+    height: calc(50% - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+/* Essence Button */
+.amado-btn {
+    display: inline-block;
+    min-width: 160px;
+    height: 55px;
+    color: #ffffff;
+    border: none;
+    border-radius: 0;
+    padding: 0 7px;
+    font-size: 18px;
+    line-height: 56px;
+    background-color: #526464;
+    font-weight: 400; }
+    .amado-btn.active, .amado-btn:hover, .amado-btn:focus {
+      font-size: 18px;
+      color: #ffffff;
+      background-color: #131212; }
+
