@@ -151,3 +151,9 @@
 .logoBorder {
     padding: 20px;
 }
+
+.khet {
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 20px;
+}
