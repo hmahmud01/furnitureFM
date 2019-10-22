@@ -165,3 +165,8 @@
     background-color: #55ca55;
     padding: 5px;
 }
+
+.cat-head {
+    border: 2px solid black;
+    margin: 10px;
+}
